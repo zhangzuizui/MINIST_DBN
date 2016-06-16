@@ -11,8 +11,8 @@
 		
 	1.1 安装
 		
-		最新版winpython2下载地址：
-			https://sourceforge.net/projects/winpython/files/WinPython_2.7/2.7.10.3/
+	最新版winpython2下载地址：
+	https://sourceforge.net/projects/winpython/files/WinPython_2.7/2.7.10.3/
 		
 	1.2 环境变量配置
 		
