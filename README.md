@@ -42,8 +42,8 @@
 
 	3.1 需要的opencv版本为 2.4.x / 3.x
 	
-		下载地址：
-			http://opencv.org/downloads.html
+	下载地址：
+	http://opencv.org/downloads.html
 		
 	3.2 环境变量配置
 	
