@@ -42,10 +42,10 @@
 
 	3.1 需要的opencv版本为 2.4.x / 3.x
 	
-	下载地址：
-	http://opencv.org/downloads.html
-	
-	在windows下会出现已解压但是硬盘里找不到的情况，这里不要双击打开.exe文件，使用压缩软件打开
+		下载地址：
+		http://opencv.org/downloads.html
+
+		在windows下会出现已解压但是硬盘里找不到的情况，这里不要双击打开.exe文件，使用压缩软件打开
 	
 	3.2 环境变量配置
 	
