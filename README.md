@@ -28,8 +28,7 @@
 		
 	2.1	MINIST数据集的存放路径为：
 	
-		...\WinPython\settings\scikit_learn_data\mldata
-		
+		...\WinPython\settings\scikit_learn_data\mldata		
 	2.2 nolearn安装方法：
 			
 		打开CMD控制台
@@ -37,14 +36,17 @@
 			cd ...\nolearn-0.5b1
 		输入以下内容完成安装：
 			python setup.py install
-	
+		需要注意的是，安装过程中会出现'build\lib' does not exit，需要手动把nolearn包复制到以下路径:
+			...\WinPython\python-2.7.10.amd64\Lib
 3. opencv的安装与环境变量配置
 
 	3.1 需要的opencv版本为 2.4.x / 3.x
 	
 	下载地址：
 	http://opencv.org/downloads.html
-		
+	
+	在windows下会出现已解压但是硬盘里找不到的情况，这里不要双击打开.exe文件，使用压缩软件打开
+	
 	3.2 环境变量配置
 	
 		如果是64位系统，将以下路径加入到Path：
@@ -52,3 +54,8 @@
 			
 		如果是32位系统，则路径为：
 			...\opencv\build\x32\vc11\bin
+			
+		然后把：
+			...\opencv-2.4.13\build\python\2.7\x64\cv2.pyd
+		复制到:
+			...\WinPython\python-2.7.10.amd64\Lib\site-packages
